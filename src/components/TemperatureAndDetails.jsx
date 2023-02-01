@@ -13,7 +13,9 @@ import { iconUrlfromCode } from "../services/WeatherServices";
 function TemperatureAndDetails(props) {
   return (
     <div>
-      <p className="text-cyan-300 font-bold"> {props.weather.details}</p>
+      <p className="text-cyan-300 font-bold my-8 md:my-4">
+        {props.weather.details}
+      </p>
 
       <div className="flex flex-col md:flex-row items-center justify-between text-white py-3">
         <img
@@ -23,7 +25,7 @@ function TemperatureAndDetails(props) {
         />
         <p className=" text-5xl font-medium">{props.weather.temp}⁰</p>
 
-        <div className="flex flex-col space-y-2 my-6">
+        <div className="flex flex-col space-y-2 my-11">
           <div className="flex items-center justify-center font-light text-sm">
             <UilTemperature size={18} className="mr-2" />
             Real feel:

@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div
-      className="text-center top-0 bottom-0 mt-4 py-5 px-4  bg-gradient-to-br from-cyan-700 to-blue-700 h-fit
+      className="text-center top-0 bottom-0 md:mt-4 py-5 px-4  bg-gradient-to-br from-cyan-700 to-blue-700  md:h-fit
      shadow-xl shadow-gray-400  md:mx-auto md:max-w-screen-md md:px-32 "
     >
       <TopButtons setQuerry={setQuerry} />
